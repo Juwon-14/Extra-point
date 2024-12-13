@@ -29,7 +29,7 @@ public:
     int getMonth() const;
     int getDay() const;
 
-    int dayOfWeek() const; // Added method for calendar operations
+    int dayOfWeek() const; 
 };
 
 #endif
