@@ -22,7 +22,8 @@ int main() {
     DateTime deserialized = DateTime::deserialize("2024-12-12T15:30:45Z");
     std::cout << "Deserialized: " << deserialized.format("Y-MM-DD HH:mm:ss") << std::endl;
 
-    std::cout << "Day of the Week: " << dt.date.dayOfWeek() << std::endl;
+    std::cout << "Day of the Week: " << dt.dayOfWeek() << std::endl;
 
     return 0;
 }
+
